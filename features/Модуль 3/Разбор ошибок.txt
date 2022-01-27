@@ -1,0 +1,49 @@
+Product defects
+ 
+7
+Error calling context method (ExecuteCommand):
+ 
+1
+#1
+_970001 filling in test data base
+ 
+2m 15s                /// не понятно!!!нет гиперссылки.
+Expected number of lines in <BasisesTree> table is равно 0 and actual number is <2>.
+ 
+1
+#1
+_015450 check message output for SO when trying to create a purchase order/SC
+ 
+1m 12s               /// в таблице не должно быть строк , а их две
+Form table named <List> is not found.
+ 
+1
+#1
+_0154149 create Cash statement
+ 
+2m 36s              /// на форме есть ItemList но List нет, а ищут List!!!
+Line No.
+ 
+1
+#1
+_092003 check serial lot number in the Retail return receipt
+ 
+19s 962ms          /// не понятно, вроди все строки есть в таб. документе возможно имеет значение пазиционирования этих строк. 
+The button/command with <Sales invoice> header is not found.
+ 
+1
+#1
+_024027 cancel line in the SO and create SI
+ 
+46s 256ms         /// Нет активной формы с кнопкой Счет-фактура , так как на предыдущем шаге вывалелось диалоговое окно с ошибкой
+Unable to move to the required line in <BasisesTree> table.
+ 
+2
+#1
+_024004 create SI using form link/unlink
+ 
+30s 692ms          /// В таблице нет строки с количеством 7 , есть с количестом 5
+#2
+_2060018 check link form in the PI with 2 lines with the same items
+ 
+40s 520ms          /// В таблице нет строки с количеством 10, есть 9 и 1
